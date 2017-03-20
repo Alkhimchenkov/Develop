@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModalViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Panel">
+            <rect key="frame" x="0.0" y="0.0" width="562" height="471"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cFY-Sq-R7D">
+                    <rect key="frame" x="0.0" y="0.0" width="281" height="471"/>
+                    <color key="backgroundColor" red="0.28627450980000002" green="0.55294117649999996" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ioA-RE-WCk">
+                    <rect key="frame" x="281" y="0.0" width="281" height="471"/>
+                    <color key="backgroundColor" red="1" green="0.3757128193" blue="0.28812157849999998" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.65465600000000002" green="0.79251799999999994" blue="0.99919800000000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cFY-Sq-R7D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6Nd-wL-2hy"/>
+                <constraint firstItem="ioA-RE-WCk" firstAttribute="width" secondItem="cFY-Sq-R7D" secondAttribute="width" id="BPZ-1N-517"/>
+                <constraint firstItem="ioA-RE-WCk" firstAttribute="height" secondItem="cFY-Sq-R7D" secondAttribute="height" id="OWV-K8-Vem"/>
+                <constraint firstAttribute="trailing" secondItem="ioA-RE-WCk" secondAttribute="trailing" id="XgB-nZ-gI6"/>
+                <constraint firstAttribute="bottom" secondItem="ioA-RE-WCk" secondAttribute="bottom" id="ab1-ux-dqG"/>
+                <constraint firstAttribute="bottom" secondItem="cFY-Sq-R7D" secondAttribute="bottom" id="er4-mJ-uS5"/>
+                <constraint firstItem="ioA-RE-WCk" firstAttribute="leading" secondItem="cFY-Sq-R7D" secondAttribute="trailing" id="gqs-Ql-oVw"/>
+                <constraint firstItem="cFY-Sq-R7D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mh1-hC-cWc"/>
+                <constraint firstItem="ioA-RE-WCk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ybV-UQ-2UP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="128" y="-43.5"/>
+        </view>
+    </objects>
+</document>
